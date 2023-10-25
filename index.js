@@ -60,7 +60,7 @@ function showMilestone(id) {
 
   milestoneImage.src = milestonesData[id].image;
   name.innerText = milestonesData[id].name;
-  details.innerText = milestonesData[id].details;
+  details.innerText = milestonesData[id].description;
 }
 
 // listen for hero image load
